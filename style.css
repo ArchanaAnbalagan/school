@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.firstnav .navbar .container-fluid{
+    background-color:blue;
+    font-size: medium;
+   
+}
+.firstnav .navbar .container-fluid .collapse ul li a{
+    margin-left: 40px;
+    color: white !important;
+}
+.firstnav .navbar .container-fluid .collapse ul li a span{
+    margin-left: 500px;
+}
+.header .navbar .container-fluid .navbar-brand img{
+   height:70px;
+   width:200px;
+   margin-left: 40px;
+}
+.header .navbar .container-fluid .collapse li a{
+    margin-left: 40px;
+    color: black;
+    font-weight: 500;
+}
+.header .navbar .container-fluid .collapse li a:hover{
+ 
+    color: yellow;
+    
+}
+.header .navbar .container-fluid .collapse button{
+    background-color: rgb(245, 223, 27);
+    height: 60px;
+    width:200px;
+    border-radius: 15px;
+    font-size: small;
+    margin-top: 10px;
+    
+}
+.header .navbar .container-fluid .collapse button:hover{
+    background-color: green;
+    height: 60px;
+    width:200px;
+    border-radius: 15px;
+    font-size: small;
+    margin-top: 5px;
+    
+}
+.about .container-fluid .row .col-md-6 img{
+    width:100%;
+}
+.about .container-fluid .row .col-md-6 .bigtext{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+}
+.about .container-fluid .row .col-md-6 .box1{
+    border: 1px solid rgb(243, 22, 206);
+    height:150px;
+    width:200px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 5px 5px 20px rgb(170, 167, 167);
+    text-align: center;
+    font-size: larger;
+}
+.about .container-fluid .row .col-md-6 .box1 h1{
+    color: rgb(243, 22, 206);
+}
+.about .container-fluid .row .col-md-6 .box2{
+    border: 1px solid yellow;
+    height:150px;
+    width:200px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 5px 5px 20px rgb(170, 167, 167);
+    text-align: center;
+    font-size: larger;
+}
+.about .container-fluid .row .col-md-6 .box2 h1{
+    color: yellow;
+}
+.about .container-fluid .row .col-md-6 .box3{
+    border: 1px solid yellowgreen;
+    height:150px;
+    width:200px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 5px 5px 20px rgb(170, 167, 167);
+    text-align: center;
+    font-size: larger;
+}
+.about .container-fluid .row .col-md-6 .box3 h1{
+    color:yellowgreen;
+}
+.about .container-fluid .row .col-md-6 .box4{
+    border: 1px solid rgb(243, 22, 206);
+    height:150px;
+    width:200px;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 5px 5px 20px rgb(170, 167, 167);
+    text-align: center;
+    font-size: larger;
+}
+.about .container-fluid .row .col-md-6 .box4 h1{
+    color: rgb(243, 22, 206);
+}
+.home .container .row{
+    margin-top: 50px;
+}
+.home .container .row .col-md-6 h6{
+    font-size:larger;
+    font-weight: 900;
+    color: yellowgreen;
+}
+.home .container .row .col-md-6 p{
+    text-align: justify;
+    color: grey;
+    font-size: large;
+}
+.home .container .row .col-md-6 img{
+    margin-top: 60px;
+    width:100%;
+}
+.facilities .container .row{
+    margin-top: 60px;
+}
+.facilities .container .row .col-md-6 .img{
+    width:100%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.facilities .container .row .col-md-6 .box{
+   
+    height: 40px;
+    width:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: pink;
+}
+.facilities .container .row .col-md-6 p{
+    text-align: justify;
+    color: grey;
+    font-size: medium;
+}
+
+.facilities .container .row .col-md-6 i{
+    color:rgb(211, 62, 131);
+}
+.facilities .container .row .col-md-6 span{
+    font-size: large;
+}
+ .gallery .container-fluid .row {
+    margin-top: 60px;
+ }
+ .gallery .container-fluid .row .col-md-6 p{
+    text-align: justify;
+    color: grey;
+    font-size: large;
+}
+.Blog .container .row{
+    margin-top: 40px;
+}
+.Blog .container .row h1{
+    text-align: center;
+}
+.Blog .container .row p{
+    text-align: center;
+  
+    color: grey;
+    font-size: large;
+}
+.Blog .container .row .col-md-4{
+    margin-top: 40px;
+}
+.Blog .container .row .col-md-4 h5{
+    font-weight: 700;
+    color: grey;
+    font-size: large;
+    padding-top: 5px;
+}
+.Blog .container .row .col-md-4 p{
+    text-align: justify;
+    color: rgb(24, 22, 22);
+    font-weight: 500;
+    font-size: large;
+    padding-top: 5px;
+}
+
+.our .container-fluid .row{
+    margin-top: 50px;
+}
+.contact .container .row .col-md-6 h1{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+.contact .container .row .col-md-6 form{
+    margin-top: 80px;
+}
+.contact .container .row .col-md-6 form input{
+    border: 0;
+   border-bottom: 1px solid grey;
+   width:550px;
+   padding: 20px;
+}
+
+.contact .container .row{
+    
+     box-shadow: 5px 8px 10px 12px rgb(216, 205, 205);
+     margin-top: 50px;
+     margin-bottom: 80px;
+}
+.contact .container .row .col-md-6 i{
+   margin-top: 40px;
+    margin-left: 50px;
+    color: rgb(109, 34, 5);
+}
+.contact .container .row .col-md-6 i:hover{
+    margin-top: 40px;
+     margin-left: 50px;
+     color: black;
+    
+ }
+.contact .container .row .col-md-6 p{
+   
+    margin-left: 120px;
+}
+
+
+.contact .container .row .col-md-6 .btn{
+    background-color: rgb(245, 223, 27);
+    height: 50px;
+    width:100px;
+    border-radius: 15px;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.contact .container .row .col-md-6 .btn:hover{
+    background-color: green;
+    height: 50px;
+    width:100px;
+    border-radius: 15px;
+    font-size: small;
+    margin-top: 10px;
+}
